@@ -81,3 +81,23 @@ airflow create_user -r Admin -u admin -e admin@example.com -f admin -l user -p a
 ## Additional Resources
 - https://airflow.apache.org/docs/apache-airflow/stable/start/index.html
 - That's it! You now have Apache Airflow 2.x set up on your Mac. You can start creating and managing your workflows using the Airflow web UI or the command-line interface.
+
+
+## Github setup
+- Set Your Git Username:
+```
+git config --global user.name "Your Name"
+```
+- Set Your Git Email:
+```
+git config --global user.email your.email@example.com
+```
+- Verify Your Git Configuration:
+```
+git config --global --get user.name
+git config --global --get user.email
+```
+- To push the current branch and set the remote as upstream, use
+```
+git push --set-upstream origin airflow-setup
+```
